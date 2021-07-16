@@ -1,0 +1,196 @@
+*{margin: 0;padding: 0;}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+
+.container{
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+}
+
+header{
+    background-color: #282c3f;
+    color: white;
+    min-height: 70px;
+    border-bottom: tomato 3px solid;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header li{
+display: inline;
+float: left;
+margin: 0 16px;
+}
+#brand{
+    float: left;
+    margin: 13px 0;
+}
+header nav{
+    float: right;
+    margin: 25px 0;
+}
+
+header .highlight, header .current a{
+    color:tomato ;
+    font-weight: bold;
+}
+
+header a:hover{
+    font-weight: bold;
+}
+
+#showcase{
+    background: url(https://images.unsplash.com/photo-1588620353536-ded12e518f45?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80) no-repeat  ;
+    min-height: 400px;
+    color: #fffbf0;
+    background-size: cover;
+    background-position: 0px;
+    text-align: center;
+}
+#showcase h1{
+    margin: 81px 0;
+    font-size: 46px;
+}
+#showcase p{
+    font-size: 20px;
+}
+#newsletter{
+    background-color: #282c3f;
+    padding: 
+    15px;
+}
+#newsletter h1{
+    color:white ;
+    float: left;
+    padding-left: 200px;
+    
+}
+
+#newsletter form{
+    float:right;
+   padding-right: 200px;
+}
+
+.homebutton{
+    background-color: tomato;
+border: none;
+
+text-align: center;
+padding: 4px 9px;
+height: 25px;
+
+font-size: 14px;
+color: white;
+}
+#newsletter input{
+    /* padding: 3px 26px; */
+    padding: 4px;
+    height: 15px;
+    width: 250px;
+}
+.homebutton:hover{
+    background-color: white;
+    color: tomato;
+}
+#boxes{
+    margin-top: 20px;
+}
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 16px;
+}
+
+
+#sidebar{
+    background-color: #282c3f;
+    color: white;
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+}
+#sidebar h1{
+    margin: 20px;
+}
+#sidebar p{
+    margin: 20px;
+}
+
+#title{
+    float: left;
+    width :65%;
+    margin-top: 20px;
+}
+
+#title .p2{
+    
+    padding: 10px; 
+}
+#title h1{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: #282c3f;
+}
+#services{
+    margin-top: 20px;
+}
+article#servicelist h1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#servicelist ul h1{
+margin-left: 10px;
+}
+#heading{
+    color: #282c3f;
+}
+#servicelist ul li{
+background-color:#282c3f;
+border: rgb(232, 238, 237) 1px solid;
+color: white;
+margin-bottom: 5px;
+}
+#servicelist ul li p{
+    padding: 10px;
+}
+
+#servicelist{
+    float: left;
+    width: 65%;
+}
+
+#submit{
+    float: right;
+    width: 25%;
+    background-color: #282c3f;
+    color: white;
+    margin-top: 61px;
+}
+#submit form{
+    padding: 20px;
+    padding-top: 0px;
+}
+#submit h1{
+    margin: 20px;
+    color: tomato;
+}
+#submit form input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#submit form textarea{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+footer{
+    background-color:tomato ;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
